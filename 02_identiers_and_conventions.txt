@@ -1,0 +1,17 @@
+Python Identifiers
+------------------
+
+and identifier is a name used to identify a variable, function, class, module, or object.
+
+Identifier MUST begin with any cased letter or an underscore, and can then be followed by underscores, letters, and/or numbers.  Punctuation like @, $ , and % can not be used in identifiers (aka no perl-ish var names)
+
+Naming Conventions
+------------------
+
+1. Class names start with an uppercase letter. all other identifiers start with lowercase letters
+
+2. an identifier with a leading underscore indicates that the identifier is private
+
+3. identifiers with two leading underscores denotes strongly private identifier
+
+4. if there are 2 underscores at the beginning AND end it denotes a language-specified special name
